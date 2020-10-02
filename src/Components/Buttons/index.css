@@ -1,0 +1,28 @@
+.container-button button {
+    background-color: #dfe7f2;
+    margin: .3rem .5rem;
+    width: 2.8rem;
+    height: 2.8rem;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 14px 12px 14px 12px;
+    box-shadow: 7px 6px 16px 0px rgba(0,0,0,0.7), -5px -4px 17px 1px rgba(255,255,255,0.5);
+}
+
+.container-button {
+    margin-top: 2rem;
+    padding: 1rem;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.container-button .button-equal{
+    width: 6.7rem;
+}
+
+
+
