@@ -1,8 +1,18 @@
-body, button {
-  margin: 0;
-  font-family: 'Roboto', sans-serif;
+*{
+  font-family: 'RobotoMono', monospace;
 }
 
-code {
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  text-align: center;
+  background-color: #dfe7f2;
+  color: white;
+  
+}
+
+h1{
+  color: #000000;
   font-family: 'Roboto', sans-serif;
 }

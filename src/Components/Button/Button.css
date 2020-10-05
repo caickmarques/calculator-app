@@ -1,0 +1,33 @@
+.button{
+    font-size: 1.4em;
+    background-color: #dfe7f2;
+    border: none;
+    outline: none;
+    color: #000000;
+    border-radius: 14px 12px 14px 12px;
+    box-shadow: 7px 6px 17px 0px rgba(0,0,0,0.7), -5px -4px 17px 1px rgba(255,255,255,0.5);
+    margin: 0.4rem;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.button:active{
+    background-color:#dfe7f2;
+    box-shadow: 7px 6px 16px 0px rgba(0,0,0,0.3), -5px -4px 17px 1px rgba(255,255,255,0.5);
+}
+
+.button.double{
+    grid-column:  span 2;
+}
+
+.button.triple{
+    grid-column: span 3;
+}
+
+.button.operation{
+    background-color:#dfe7f2;
+    color: #000000;
+}
+.button.operation:active{
+    background-color: #dfe7f2;
+}
